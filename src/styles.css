@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  /* Color contants */
+  --white: #ffffff;
+  --green-medium: #2ecc71;
+  --green-dark: #27ae60;
+  --blue-medium: #3498db;
+  --blue-dark: #2980b9;
+  --grey-light: #ecf0f1;
+  --grey-dark: #34495e;
+  --grey-ultra-dark: #2c3e50;
+
+  /* Theme vars */
+  --page-bg-color: var(--grey-light);
+  --content-bg-color: var(--white);
+  --text-color: var(--grey-ultra-dark);
+
+  --font-family-title: "Space Mono", monospace;
+  --font-family-text: "Libre Franklin", sans-serif;
+
+  --button-primary-bg: var(--green-medium);
+  --button-primary-color: var(--white);
+  --button-secondary-bg: var(--grey-light);
+  --button-secondary-color: var(--grey-ultra-dark);
+}
+
+body {
+  background-color: var(--page-bg-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+
+p {
+  font-family: var(--font-family-text);
+  margin: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+div {
+  box-sizing: border-box;
+}
