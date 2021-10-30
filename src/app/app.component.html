@@ -1,7 +1,7 @@
 <style>
   .container {
     width: 960px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--content-bg-color);
     padding: 64px;
     margin: 0 auto;
@@ -10,7 +10,7 @@
 
 <div class="container" role="banner">
   <h1>Lorem ipsum</h1>
-  <p>Lorem ipsum dolor sit amet</p>
+  <p *ngFor="let person of persons | async">{{ person.name }}</p>
 </div>
 
 <router-outlet></router-outlet>
