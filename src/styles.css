@@ -6,6 +6,7 @@ html {
   --blue-medium: #3498db;
   --blue-dark: #2980b9;
   --grey-light: #ecf0f1;
+  --grey-medium: #bdc3c7;
   --grey-dark: #34495e;
   --grey-ultra-dark: #2c3e50;
 
@@ -21,6 +22,8 @@ html {
   --button-primary-color: var(--white);
   --button-secondary-bg: var(--grey-light);
   --button-secondary-color: var(--grey-ultra-dark);
+  --button-disabled-bg: var(--grey-medium);
+  --button-disabled-color: var(--white);
 }
 
 body {

@@ -9,7 +9,7 @@ import { Person } from '../types';
     <ui-spacer [size]="20"></ui-spacer>
     <h2>How well do you know your co-workers?</h2>
     <ui-spacer [size]="40"></ui-spacer>
-    <ui-button [title]="'Get started!'"></ui-button>
+    <ui-button [title]="'Get started!'" [routerLink]="'/quiz'"></ui-button>
     <ui-spacer [size]="80"></ui-spacer>
     <div class="personsContainer">
       <div
@@ -26,12 +26,14 @@ import { Person } from '../types';
         flex-direction: column;
         height: 100%;
       }
+
       .personsContainer {
         flex: 1;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
       }
+
       .person {
         width: 120px;
         height: 180px;

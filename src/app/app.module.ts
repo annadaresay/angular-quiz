@@ -5,16 +5,30 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { SpacerComponent } from './ui/spacer/spacer.component';
+import { QuestionQuoteComponent } from './quiz/question-quote/question-quote.component';
+import { QuestionComponent } from './quiz/question/question.component';
+import { QuizComponent } from './quiz/quiz.component';
 import { ButtonComponent } from './ui/button/button.component';
+import { RadioGroupComponent } from './ui/radio-group/radio-group.component';
+import { SpacerComponent } from './ui/spacer/spacer.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'quiz', component: QuizComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, SpacerComponent, ButtonComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    SpacerComponent,
+    ButtonComponent,
+    QuizComponent,
+    RadioGroupComponent,
+    QuestionComponent,
+    QuestionQuoteComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

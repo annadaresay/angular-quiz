@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'ui-button',
-  template: `<div role="button">
+  template: `<div role="button" [ngClass]="{ disabled: disabled }">
     <span class="buttonLabel">{{ title }}</span>
   </div>`,
   styles: [
@@ -16,7 +16,11 @@ import { Component, Input, OnInit } from '@angular/core';
         background: var(--button-primary-bg);
         color: var(--button-primary-color);
       }
-      div:hover {
+      div.disabled {
+        background: var(--button-disabled-bg);
+        color: var(--button-disabled-color);
+      }
+      div:hover:not(.disabled) {
         cursor: pointer;
         opacity: 0.8;
       }
@@ -25,8 +29,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
   @Input() title!: string;
+  @Input() disabled?: boolean;
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log('disabled: ', this.title, this.disabled);
+  }
 }
