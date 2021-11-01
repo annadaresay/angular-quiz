@@ -1,15 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Person } from './types';
+import { Person, Question, Quiz } from './types';
 
 const PERSONS_ENDPOINT = 'api/persons';
+
+const shuffle = <T extends {}>(array: T[]): T[] =>
+  array.sort(() => 0.5 - Math.random());
 
 @Injectable({
   providedIn: 'root',
 })
 export class QuestionsService {
   persons: Person[] | undefined;
+  quiz: Quiz | undefined;
 
   constructor(private http: HttpClient) {
     const storedPersons = this.getStoredPersons();
@@ -58,5 +62,110 @@ export class QuestionsService {
 
   getPersons(): Observable<Person[] | undefined> {
     return of(this.persons);
+  }
+
+  generateQuiz() {
+    // Generate quote questions
+    const { questions: quoteQuestions, answers: quoteAnswers } =
+      this.generateQuoteQuestions(5);
+
+    // Generate image questions
+    const { questions: imageQuestions, answers: imageAnswers } =
+      this.generateImageQuestions(5);
+
+    this.quiz = {
+      questions: shuffle([...quoteQuestions, ...imageQuestions]),
+      correctAnswers: { ...quoteAnswers, ...imageAnswers },
+      answers: {},
+    };
+  }
+
+  generateQuoteQuestions(amount: number) {
+    if (!this.persons) {
+      throw Error();
+    }
+
+    const persons = shuffle(this.persons);
+
+    const answers: { [key: string]: string } = persons
+      .filter((p) => !!p.quote)
+      .slice(0, amount)
+      .reduce(
+        (prev, curr, index) => ({
+          ...prev,
+          [`quote-question-${index}`]: curr.id,
+        }),
+        {}
+      );
+
+    const questions: Question[] = Object.entries(answers).map(
+      ([questionId, answer]) => {
+        const person = persons.find((p) => p.id === answer) as Person;
+
+        const alternatives = [
+          ...shuffle(persons)
+            .filter((p) => p.id !== person.id)
+            .slice(0, 2),
+          person,
+        ];
+
+        return {
+          id: questionId,
+          type: 'quote',
+          quote: person.quote as string,
+          alternatives: shuffle(alternatives),
+        };
+      }
+    );
+
+    return {
+      answers,
+      questions,
+    };
+  }
+
+  generateImageQuestions(amount: number) {
+    if (!this.persons) {
+      throw Error();
+    }
+
+    const persons = shuffle(this.persons);
+
+    const answers: { [key: string]: string } = persons.slice(0, amount).reduce(
+      (prev, curr, index) => ({
+        ...prev,
+        [`image-question-${index}`]: curr.id,
+      }),
+      {}
+    );
+
+    const questions: Question[] = Object.entries(answers).map(
+      ([questionId, answer]) => {
+        const person = persons.find((p) => p.id === answer) as Person;
+
+        const alternatives = [
+          ...shuffle(persons)
+            .filter((p) => p.id !== person.id)
+            .slice(0, 2),
+          person,
+        ];
+
+        return {
+          id: questionId,
+          type: 'image',
+          image: person.image,
+          alternatives: shuffle(alternatives),
+        };
+      }
+    );
+
+    return {
+      answers,
+      questions,
+    };
+  }
+
+  getQuiz(): Observable<Quiz | undefined> {
+    return of(this.quiz);
   }
 }

@@ -11,6 +11,7 @@ import { QuizComponent } from './quiz/quiz.component';
 import { ButtonComponent } from './ui/button/button.component';
 import { RadioGroupComponent } from './ui/radio-group/radio-group.component';
 import { SpacerComponent } from './ui/spacer/spacer.component';
+import { QuestionImageComponent } from './quiz/question-image/question-image.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
     RadioGroupComponent,
     QuestionComponent,
     QuestionQuoteComponent,
+    QuestionImageComponent,
   ],
   imports: [
     BrowserModule,

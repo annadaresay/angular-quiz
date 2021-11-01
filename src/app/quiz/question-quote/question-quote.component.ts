@@ -1,26 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Person } from 'src/app/types';
 
 @Component({
   selector: 'quiz-question-quote',
-  template: ` <h2>{{ title }}</h2>
+  template: `
+    <h2>Who likes this quote?</h2>
     <ui-spacer [size]="20"></ui-spacer>
-    <p>{{ quote }}</p>
-    <ui-spacer [size]="20"></ui-spacer>
-    <ui-radio-group
-      name="question-1"
-      [items]="this.alternatives"
-    ></ui-radio-group>`,
+    <p [innerHTML]="quote"></p>
+  `,
   styles: [``],
 })
 export class QuestionQuoteComponent implements OnInit {
-  title = 'Who likes this quote?';
-  quote =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, ligula in dapibus vulputate, sem leo pharetra nisl, non tincidunt dui odio a leo.';
-  alternatives = [
-    { id: 'test-1', label: 'Test 1' },
-    { id: 'test-2', label: 'Test 2' },
-    { id: 'test-3', label: 'Test 3' },
-  ];
+  @Input() quote!: string;
 
   constructor() {}
 

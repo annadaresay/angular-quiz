@@ -20,8 +20,6 @@ html {
 
   --button-primary-bg: var(--green-medium);
   --button-primary-color: var(--white);
-  --button-secondary-bg: var(--grey-light);
-  --button-secondary-color: var(--grey-ultra-dark);
   --button-disabled-bg: var(--grey-medium);
   --button-disabled-color: var(--white);
 }

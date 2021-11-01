@@ -33,7 +33,5 @@ export class ButtonComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log('disabled: ', this.title, this.disabled);
-  }
+  ngOnInit(): void {}
 }
