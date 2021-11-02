@@ -13,7 +13,7 @@ const shuffle = <T extends {}>(array: T[]): T[] =>
 @Injectable({
   providedIn: 'root',
 })
-export class QuestionsService {
+export class DataService {
   persons: Person[] = [];
   quiz: Quiz | undefined;
 

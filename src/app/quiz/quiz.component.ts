@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { QuestionsService } from '../questions.service';
+import { DataService } from '../data.service';
 import { Question, Quiz } from '../types';
 
 @Component({
@@ -55,9 +55,9 @@ export class QuizComponent implements OnInit {
   currentQuestionIndex: number = 0;
   currentQuestion: Question | undefined;
 
-  constructor(private questionsService: QuestionsService) {
-    this.questionsService.generateQuiz();
-    this.quiz = this.questionsService.getQuiz();
+  constructor(private DataService: DataService) {
+    this.DataService.generateQuiz();
+    this.quiz = this.DataService.getQuiz();
   }
 
   ngOnInit(): void {

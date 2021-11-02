@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { QuestionsService } from '../questions.service';
+import { DataService } from '../data.service';
 import { Person } from '../types';
 
 @Component({
@@ -49,10 +49,10 @@ import { Person } from '../types';
 export class HomeComponent implements OnInit {
   randomPersons: Person[] = [];
 
-  constructor(private questionsService: QuestionsService) {}
+  constructor(private DataService: DataService) {}
 
   ngOnInit(): void {
-    this.questionsService.getPersons().subscribe((data) => {
+    this.DataService.getPersons().subscribe((data) => {
       if (data) {
         this.setRandomPersons(data);
       }

@@ -5,13 +5,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { QuestionImageComponent } from './quiz/question-image/question-image.component';
 import { QuestionQuoteComponent } from './quiz/question-quote/question-quote.component';
 import { QuestionComponent } from './quiz/question/question.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ButtonComponent } from './ui/button/button.component';
 import { RadioGroupComponent } from './ui/radio-group/radio-group.component';
 import { SpacerComponent } from './ui/spacer/spacer.component';
-import { QuestionImageComponent } from './quiz/question-image/question-image.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
