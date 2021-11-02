@@ -1,7 +1,10 @@
 export interface Person {
   id: string;
   name: string;
-  image: string;
+  image: {
+    url: string;
+    faceData?: any;
+  };
   role: string;
   quote?: string;
 }
@@ -17,7 +20,10 @@ export type Question = {
     }
   | {
       type: 'image';
-      image: string;
+      image: {
+        url: string;
+        faceData?: any;
+      };
     }
 );
 

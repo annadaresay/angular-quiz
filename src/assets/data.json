@@ -1,0 +1,1164 @@
+{
+  "persons": [
+    {
+      "id": "adam-nylander",
+      "name": "Adam Nylander",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2019/01/Adam-Nylander-web-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.986348321463608,
+          "_classScore": 0.986348321463608,
+          "_className": "",
+          "_box": {
+            "_x": 246.5511413737702,
+            "_y": 205.88650252435235,
+            "_width": 314.01837863065714,
+            "_height": 281.9636649316731
+          }
+        }
+      },
+      "role": "UX Designer"
+    },
+    {
+      "id": "adrian-sergheev",
+      "name": "Adrian Sergheev",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/simon-768x768.jpg"
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "alexander-hederby",
+      "name": "Alexander Hederby",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0001-3-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 450, "_height": 450 },
+          "_score": 0.6739986105641872,
+          "_classScore": 0.6739986105641872,
+          "_className": "",
+          "_box": {
+            "_x": 156.23254994210677,
+            "_y": 99.14065085679054,
+            "_width": 158.12947997046643,
+            "_height": 157.71914808214504
+          }
+        }
+      },
+      "role": "UX/UI Designer"
+    },
+    {
+      "id": "alexander-mitton",
+      "name": "Alexander Mitton",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/01/MW_0001-copy.jpg"
+      },
+      "role": "UX Designer"
+    },
+    {
+      "id": "anders-mannerhagen",
+      "name": "Anders Mannerhagen",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/10/Anders-Mannerhagen-web-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.7732947443785111,
+          "_classScore": 0.7732947443785111,
+          "_className": "",
+          "_box": {
+            "_x": 251.08426589248353,
+            "_y": 208.94926149439007,
+            "_width": 299.8001466228454,
+            "_height": 279.46969874362526
+          }
+        }
+      },
+      "role": "Service Designer",
+      "quote": "&#8220;We shape our buildings; thereafter they shape us.&#8221;<br>\n<em>Winston Churchill</em>"
+    },
+    {
+      "id": "anders-printz",
+      "name": "Anders Printz",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/05/MW_0001-11-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9448709365071899,
+          "_classScore": 0.9448709365071899,
+          "_className": "",
+          "_box": {
+            "_x": 249.9966473066763,
+            "_y": 197.1674902351527,
+            "_width": 305.39218530013665,
+            "_height": 291.1269162911026
+          }
+        }
+      },
+      "role": "Web developer"
+    },
+    {
+      "id": "andrea-norell",
+      "name": "Andrea Norell",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0023_Andrea_Norell-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9398077109771312,
+          "_classScore": 0.9398077109771312,
+          "_className": "",
+          "_box": {
+            "_x": 215.13901730230046,
+            "_y": 202.99145524437364,
+            "_width": 310.7531028469159,
+            "_height": 303.26565183561866
+          }
+        }
+      },
+      "role": "Service Designer & Design Team Lead",
+      "quote": "&#8220;It is always good in the end. If it is not good, it is not the end.&#8221;"
+    },
+    {
+      "id": "anna-lindstrand",
+      "name": "Anna Lindstrand",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0022_Anna-Lindstrand-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9821012057525907,
+          "_classScore": 0.9821012057525907,
+          "_className": "",
+          "_box": {
+            "_x": 239.8923902097455,
+            "_y": 196.884612429146,
+            "_width": 315.9286507196455,
+            "_height": 321.0141517399658
+          }
+        }
+      },
+      "role": "Head of Daresay",
+      "quote": "&#8220;Chewing out a rhythm on my bubble gum<br>\nThe sun is out and I want some.&#8221;<br>\n<em>Ramones</em>"
+    },
+    {
+      "id": "anna-viklund",
+      "name": "Anna Viklund",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/05/MW_0001-6-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9708622769050109,
+          "_classScore": 0.9708622769050109,
+          "_className": "",
+          "_box": {
+            "_x": 260.98455101099034,
+            "_y": 209.7860444533352,
+            "_width": 277.6074908946604,
+            "_height": 267.22828908546944
+          }
+        }
+      },
+      "role": "Web Developer"
+    },
+    {
+      "id": "arslan-rafique",
+      "name": "Arslan Rafique",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/12/Arslan-Rafique-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.7441998795115384,
+          "_classScore": 0.7441998795115384,
+          "_className": "",
+          "_box": {
+            "_x": 239.7544442313145,
+            "_y": 210.1353863468311,
+            "_width": 276.21333503659895,
+            "_height": 285.98233874652647
+          }
+        }
+      },
+      "role": "Web Developer",
+      "quote": "&#8220;Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree&#8221;<br>\n<em>Martin Luther</em>"
+    },
+    {
+      "id": "arvid-langstrom",
+      "name": "Arvid Långström",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/09/Web-Arvid-Långström-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.784028314068075,
+          "_classScore": 0.784028314068075,
+          "_className": "",
+          "_box": {
+            "_x": 235.9247363088512,
+            "_y": 206.0150323870779,
+            "_width": 313.1070695508836,
+            "_height": 293.8185855771177
+          }
+        }
+      },
+      "role": "Interaction Designer",
+      "quote": "“If we hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.”<br>\n<em>Zapp Brannigan</em>"
+    },
+    {
+      "id": "asta",
+      "name": "Asta",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Asta-768x768.jpg"
+      },
+      "role": "Office Dog",
+      "quote": "<span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;\\&quot;I don't do design - I am design.\\&quot;&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:769,&quot;3&quot;:[null,0],&quot;11&quot;:4,&quot;12&quot;:0}\">&#8220;I don&#8217;t do design &#8211; I am design.&#8221;</span>"
+    },
+    {
+      "id": "caroline-blomgren",
+      "name": "Caroline Blomgren",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/05/MW_0001-2-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 734, "_height": 933 },
+          "_score": 0.6385388243068799,
+          "_classScore": 0.6385388243068799,
+          "_className": "",
+          "_box": {
+            "_x": 154.69669029652692,
+            "_y": 280.6793421309274,
+            "_width": 432.9195391168696,
+            "_height": 415.37141543603957
+          }
+        }
+      },
+      "role": "UX Designer"
+    },
+    {
+      "id": "casper-bodin-lindberg",
+      "name": "Casper Bodin Lindberg",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/05/MW_0001-3-copy.jpg"
+      },
+      "role": "Android & iOS Developer"
+    },
+    {
+      "id": "charlotte-svedberg",
+      "name": "Charlotte Svedberg",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0004-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9446738234381961,
+          "_classScore": 0.9446738234381961,
+          "_className": "",
+          "_box": {
+            "_x": 243.8002776040818,
+            "_y": 140.62310111542632,
+            "_width": 248.27462367444423,
+            "_height": 234.61844556604794
+          }
+        }
+      },
+      "role": "UX/UI Designer"
+    },
+    {
+      "id": "daniel-eriksson",
+      "name": "Daniel Eriksson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Daniel-Eriksson-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.6412316508377524,
+          "_classScore": 0.6412316508377524,
+          "_className": "",
+          "_box": {
+            "_x": 226.7868492046921,
+            "_y": 196.98098296046297,
+            "_width": 285.43958467089647,
+            "_height": 295.22761297190704
+          }
+        }
+      },
+      "role": "Service Designer",
+      "quote": "“I will stay in contact with anyone who has helped me a lot.”<br>\n<em>A user on the relationship to one of our clients</em>"
+    },
+    {
+      "id": "daniel-ronnlund",
+      "name": "Daniel Rönnlund",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0021_daniel_ronnlund-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9936057106394608,
+          "_classScore": 0.9936057106394608,
+          "_className": "",
+          "_box": {
+            "_x": 213.86361993058298,
+            "_y": 202.3276231698646,
+            "_width": 318.7648476118045,
+            "_height": 311.50884296467416
+          }
+        }
+      },
+      "role": "UX Designer",
+      "quote": "&#8220;Success is not final, failure is not fatal: it is the courage to continue that counts.&#8221;<br>\n<em>Winston Churchill</em>"
+    },
+    {
+      "id": "david-furendal",
+      "name": "David Furendal",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/06/David-Furendal-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9821166640725733,
+          "_classScore": 0.9821166640725733,
+          "_className": "",
+          "_box": {
+            "_x": 244.85676198684948,
+            "_y": 206.36347795663406,
+            "_width": 308.83801510754233,
+            "_height": 293.2283884468867
+          }
+        }
+      },
+      "role": "Head of Innovation & Growth",
+      "quote": "&#8220;Jobs was a poser. He didn&#8217;t even write code.&#8221;<br>\n<em>Richard Hendriks</em>"
+    },
+    {
+      "id": "dennis-fougner",
+      "name": "Dennis Fougner",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0019_Dennis_Fougner-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9404622450765138,
+          "_classScore": 0.9404622450765138,
+          "_className": "",
+          "_box": {
+            "_x": 212.20830841323686,
+            "_y": 207.7995901018368,
+            "_width": 320.99991088580384,
+            "_height": 294.60239248481145
+          }
+        }
+      },
+      "role": "IT Manager",
+      "quote": "&#8220;Why so serious?&#8221;<br>\n<em>The Joker</em>"
+    },
+    {
+      "id": "fredrik-johansson",
+      "name": "Fredrik Johansson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0016_Fredrik_Johansson-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9907034135859513,
+          "_classScore": 0.9907034135859513,
+          "_className": "",
+          "_box": {
+            "_x": 195.29589477274612,
+            "_y": 202.78773269568134,
+            "_width": 333.1425879595202,
+            "_height": 313.18243206441815
+          }
+        }
+      },
+      "role": "Business Director & Design Lead",
+      "quote": "&#8220;The woods are lovely dark and deep. But I have promises to keep, and miles to go before I sleep.&#8221;<br>\n<em>Robert Frost</em>"
+    },
+    {
+      "id": "fredrik-malmgren",
+      "name": "Fredrik Malmgren",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Fredrik-Malmgren-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.8887319897195711,
+          "_classScore": 0.8887319897195711,
+          "_className": "",
+          "_box": {
+            "_x": 248.05488750065,
+            "_y": 196.46317852081188,
+            "_width": 320.9177878391027,
+            "_height": 318.2372056365013
+          }
+        }
+      },
+      "role": "Business Director",
+      "quote": "&#8220;Talent wins games, but teamwork and intelligence wins championships.&#8221;<br>\n<em>Michael Jordan</em>"
+    },
+    {
+      "id": "gabor-rab",
+      "name": "Gábor Rab",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/01/Web-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9982760268497527,
+          "_classScore": 0.9982760268497527,
+          "_className": "",
+          "_box": {
+            "_x": 255.5889524568003,
+            "_y": 178.39060671200707,
+            "_width": 297.3108551402193,
+            "_height": 282.69757669041053
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "gustaf-jorlin",
+      "name": "Gustaf Jorlin",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/11/Gustaf-web-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.8026778832139754,
+          "_classScore": 0.8026778832139754,
+          "_className": "",
+          "_box": {
+            "_x": 207.6902545590225,
+            "_y": 122.82853993418841,
+            "_width": 273.3568423851766,
+            "_height": 288.66754919557434
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "gustav-engvall",
+      "name": "Gustav Engvall",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/11/Gustav-web-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9870043042064884,
+          "_classScore": 0.9870043042064884,
+          "_className": "",
+          "_box": {
+            "_x": 238.9377903709933,
+            "_y": 150.57378773327875,
+            "_width": 262.34594942432045,
+            "_height": 258.6979939201981
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "hanna-gronqvist",
+      "name": "Hanna Grönqvist",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web-Hanna-Grönqvist2-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.8936166188113557,
+          "_classScore": 0.8936166188113557,
+          "_className": "",
+          "_box": {
+            "_x": 239.91386388663537,
+            "_y": 195.27352349764863,
+            "_width": 283.8945361874022,
+            "_height": 272.7044848891867
+          }
+        }
+      },
+      "role": "Office Coordinator",
+      "quote": "&#8220;All our dreams can come true, if we have the courage to pursue them.&#8221;<br>\n<em>Walt Disney</em>"
+    },
+    {
+      "id": "helena-vedeler",
+      "name": "Helena Vedeler",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/05/MW_0001-3.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 453, "_height": 453 },
+          "_score": 0.978076713443712,
+          "_classScore": 0.978076713443712,
+          "_className": "",
+          "_box": {
+            "_x": 170.01634855474373,
+            "_y": 129.7714210054226,
+            "_width": 146.60461007271817,
+            "_height": 152.64618026023228
+          }
+        }
+      },
+      "role": "UX/UI Designer"
+    },
+    {
+      "id": "ida-maria-isaksson",
+      "name": "Ida-Maria Isaksson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0014_ida-maria-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.971283866123957,
+          "_classScore": 0.971283866123957,
+          "_className": "",
+          "_box": {
+            "_x": 260.5075941872288,
+            "_y": 209.72356622772725,
+            "_width": 300.2648974415438,
+            "_height": 289.60222687274324
+          }
+        }
+      },
+      "role": "Interaction Designer",
+      "quote": "&#8220;Most things remain to be done. Glorious future!&#8221;<br>\n<em>Ingvar Kamprad</em>"
+    },
+    {
+      "id": "jens-persson",
+      "name": "Jens Persson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/11/Jens-web-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9719358852554346,
+          "_classScore": 0.9719358852554346,
+          "_className": "",
+          "_box": {
+            "_x": 241.8979174467466,
+            "_y": 142.60481355607368,
+            "_width": 250.55008076455118,
+            "_height": 264.8770898531602
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "joakim-olsson",
+      "name": "Joakim Olsson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/09/MicrosoftTeams-image-6.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 556, "_height": 752 },
+          "_score": 0.9043074040642799,
+          "_classScore": 0.9043074040642799,
+          "_className": "",
+          "_box": {
+            "_x": 107.58324755573989,
+            "_y": 219.27115347295407,
+            "_width": 307.34749299841445,
+            "_height": 293.8938642484179
+          }
+        }
+      },
+      "role": "UX designer & Visual Designer"
+    },
+    {
+      "id": "johannes-loor",
+      "name": "Johannes Loor",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0002-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.7172937954914342,
+          "_classScore": 0.7172937954914342,
+          "_className": "",
+          "_box": {
+            "_x": 225.74616936539906,
+            "_y": 113.73307104940025,
+            "_width": 270.56523642625905,
+            "_height": 294.195206366928
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "jonas-jerlstrom",
+      "name": "Jonas Jerlström",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2019/11/Jonas-Web-2-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.8318573969655481,
+          "_classScore": 0.8318573969655481,
+          "_className": "",
+          "_box": {
+            "_x": 228.7220922439015,
+            "_y": 205.56162151262524,
+            "_width": 268.5238825200141,
+            "_height": 276.13589147800366
+          }
+        }
+      },
+      "role": "UX designer"
+    },
+    {
+      "id": "kim-fransman",
+      "name": "Kim Fransman",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/12/0007_Kim_Fransman-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9943264212930786,
+          "_classScore": 0.9943264212930786,
+          "_className": "",
+          "_box": {
+            "_x": 218.39759992333884,
+            "_y": 199.39975103896765,
+            "_width": 312.99908283859224,
+            "_height": 287.3373191413069
+          }
+        }
+      },
+      "role": "Tech Director",
+      "quote": "&#8220;Yes, I’m a lazy bum. It’s my greatest strength. Laziness is a powerful motivator for finding more effective ways of doing things.&#8221;<br>\n<em>Ron Garret</em>"
+    },
+    {
+      "id": "kurt-sillen",
+      "name": "Kurt Sillén",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Kurt-Sillen-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9460896470024702,
+          "_classScore": 0.9460896470024702,
+          "_className": "",
+          "_box": {
+            "_x": 205.14478545697992,
+            "_y": 196.62485770419633,
+            "_width": 326.4331468417172,
+            "_height": 298.5437828421975
+          }
+        }
+      },
+      "role": "Business Director",
+      "quote": "&#8220;How difficult can it be&#8230;?&#8221;<br>\n<em>Unknown</em>"
+    },
+    {
+      "id": "lena-blanksvard",
+      "name": "Lena Blanksvärd",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/05/MW_0001-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9977142507003317,
+          "_classScore": 0.9977142507003317,
+          "_className": "",
+          "_box": {
+            "_x": 230.41902976700092,
+            "_y": 164.47586855360066,
+            "_width": 292.9877346120045,
+            "_height": 282.6126734208807
+          }
+        }
+      },
+      "role": "Chief Financial Officer"
+    },
+    {
+      "id": "lisa-lee",
+      "name": "Lisa Lee",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/12/Lisa-Lee-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9754811666392471,
+          "_classScore": 0.9754811666392471,
+          "_className": "",
+          "_box": {
+            "_x": 224.06817530219948,
+            "_y": 203.28158326532989,
+            "_width": 300.7829527265211,
+            "_height": 295.3172961826879
+          }
+        }
+      },
+      "role": "Visual Designer"
+    },
+    {
+      "id": "magnus-ahlstrom",
+      "name": "Magnus Ahlström",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Magnus-Ahlstrom-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.6310114072563524,
+          "_classScore": 0.6310114072563524,
+          "_className": "",
+          "_box": {
+            "_x": 245.66061182392687,
+            "_y": 194.98091572623466,
+            "_width": 303.1747445361626,
+            "_height": 301.79945821906267
+          }
+        }
+      },
+      "role": "Chief Commercial Officer",
+      "quote": "&#8220;Live now, not later.&#8221;"
+    },
+    {
+      "id": "magnus-sandebree",
+      "name": "Magnus Sandebree",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/04/0004_Magnus-Sandebree-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9997187851308839,
+          "_classScore": 0.9997187851308839,
+          "_className": "",
+          "_box": {
+            "_x": 242.03122006073667,
+            "_y": 199.39171794666353,
+            "_width": 314.224407550214,
+            "_height": 304.5028299556105
+          }
+        }
+      },
+      "role": "Service Designer"
+    },
+    {
+      "id": "maria-brenner",
+      "name": "Maria Brenner",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web-Maria-Brenner-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.5013026416631656,
+          "_classScore": 0.5013026416631656,
+          "_className": "",
+          "_box": {
+            "_x": 255.9335939345558,
+            "_y": 207.103081310602,
+            "_width": 271.1136802916983,
+            "_height": 267.9652588620106
+          }
+        }
+      },
+      "role": "Service Designer",
+      "quote": "&#8220;&#8216;Artefact&#8217; is just a pretentious way of saying &#8216;thing.&#8217;&#8221;<br>\n<em>My mom</em>"
+    },
+    {
+      "id": "maria-stensdotter",
+      "name": "Maria Stensdotter",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0001-2-2.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9061818670903456,
+          "_classScore": 0.9061818670903456,
+          "_className": "",
+          "_box": {
+            "_x": 274.73925445525913,
+            "_y": 131.8413135060273,
+            "_width": 264.06618048923053,
+            "_height": 225.10201596634698
+          }
+        }
+      },
+      "role": "User Experience Lead"
+    },
+    {
+      "id": "marina-lundgren",
+      "name": "Marina Lundgren",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0003-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.5241750628839694,
+          "_classScore": 0.5241750628839694,
+          "_className": "",
+          "_box": {
+            "_x": 277.58975920243404,
+            "_y": 125.46867303832228,
+            "_width": 260.36154708744255,
+            "_height": 253.25264885282414
+          }
+        }
+      },
+      "role": "Service & UX Designer"
+    },
+    {
+      "id": "marisa-wang-pallin",
+      "name": "Marisa Wang Pallin",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0005-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9639547889138396,
+          "_classScore": 0.9639547889138396,
+          "_className": "",
+          "_box": {
+            "_x": 215.01287968633818,
+            "_y": 126.73134457447162,
+            "_width": 259.2501679259015,
+            "_height": 277.3142446514546
+          }
+        }
+      },
+      "role": "UX/UI Designer"
+    },
+    {
+      "id": "martin-kurtsson",
+      "name": "Martin Kurtsson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/01/Martin-Kurtsson-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9931018383478237,
+          "_classScore": 0.9931018383478237,
+          "_className": "",
+          "_box": {
+            "_x": 216.17034067548732,
+            "_y": 218.58249436650266,
+            "_width": 301.9764435066753,
+            "_height": 273.54937277837655
+          }
+        }
+      },
+      "role": "CTO & Founder",
+      "quote": "&#8220;I don&#8217;t want to be interesting. I want to be good.&#8221;<br>\n<em>Mies van der Rohe</em>"
+    },
+    {
+      "id": "melina-pyykkonen",
+      "name": "Melina Pyykkönen",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0009_melina_pykkonen-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9828463224016833,
+          "_classScore": 0.9828463224016833,
+          "_className": "",
+          "_box": {
+            "_x": 232.1373702432213,
+            "_y": 201.43065286021047,
+            "_width": 292.1968788391962,
+            "_height": 283.6280964995575
+          }
+        }
+      },
+      "role": "Service Designer & UX Designer",
+      "quote": "&#8220;I want something good to die for to make it beautiful to live.&#8221;<br>\n<em>Queens of the Stone Age</em>"
+    },
+    {
+      "id": "mikael-westh",
+      "name": "Mikael Westh",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/01/Web-Mikael-Westh-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.8589300393113676,
+          "_classScore": 0.8589300393113676,
+          "_className": "",
+          "_box": {
+            "_x": 205.8032030860653,
+            "_y": 212.44039186254932,
+            "_width": 287.07878407792884,
+            "_height": 274.6939904535169
+          }
+        }
+      },
+      "role": "People & Culture Manager"
+    },
+    {
+      "id": "miriana-giai-gischia",
+      "name": "Miriana Giai Gischia",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2019/01/Miriana-Gischia-web-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.990143626169034,
+          "_classScore": 0.990143626169034,
+          "_className": "",
+          "_box": {
+            "_x": 223.44040480470667,
+            "_y": 185.85734371192217,
+            "_width": 307.599907206813,
+            "_height": 323.6102380434638
+          }
+        }
+      },
+      "role": "UX Designer"
+    },
+    {
+      "id": "mohamad-esmaeilpour",
+      "name": "Mohamad Esmaeilpour",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/09/Web-Mohamad-Esmaeilpour-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9424777103238884,
+          "_classScore": 0.9424777103238884,
+          "_className": "",
+          "_box": {
+            "_x": 252.10983198674774,
+            "_y": 195.19568431579106,
+            "_width": 305.11782642674393,
+            "_height": 295.63871702857216
+          }
+        }
+      },
+      "role": "Web Developer"
+    },
+    {
+      "id": "mohammad-zakizadeh",
+      "name": "Mohammad Zakizadeh",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2021/10/MW_0006-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.6706210773920788,
+          "_classScore": 0.6706210773920788,
+          "_className": "",
+          "_box": {
+            "_x": 238.39659149845806,
+            "_y": 167.4740314199759,
+            "_width": 268.05031546079914,
+            "_height": 254.10574587497663
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "nejat-mohammed-sultan",
+      "name": "Nejat Mohammed Sultan",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2019/01/Nejat-Mohammed-Sultan-web-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.998856804745351,
+          "_classScore": 0.998856804745351,
+          "_className": "",
+          "_box": {
+            "_x": 247.34393404572728,
+            "_y": 198.84879618821336,
+            "_width": 313.55744260767955,
+            "_height": 293.2762290163363
+          }
+        }
+      },
+      "role": "Android Developer"
+    },
+    {
+      "id": "petra-emtestam",
+      "name": "Petra Emtestam",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web-Petra-Emtestam2-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9762698052178884,
+          "_classScore": 0.9762698052178884,
+          "_className": "",
+          "_box": {
+            "_x": 198.19068221056375,
+            "_y": 204.48593658212883,
+            "_width": 293.6776306982378,
+            "_height": 278.98694316247753
+          }
+        }
+      },
+      "role": "UX Designer & Visual Designer",
+      "quote": "&#8220;Always be yourself. Unless you can be a unicorn. Then always be a unicorn.&#8221;<br>\n<em>Internet, traditional</em>"
+    },
+    {
+      "id": "petter-olofsson",
+      "name": "Petter Olofsson",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/01/petter-olofsson-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9813442915843894,
+          "_classScore": 0.9813442915843894,
+          "_className": "",
+          "_box": {
+            "_x": 247.74260950629608,
+            "_y": 198.904519262691,
+            "_width": 323.45950732009373,
+            "_height": 291.08504334242133
+          }
+        }
+      },
+      "role": "Web Developer & Founder",
+      "quote": "&#8220;There are only possibilities.&#8221;<br>\n<em>Mats Olofsson</em>"
+    },
+    {
+      "id": "rebecca-jager",
+      "name": "Rebecca Jäger",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/09/Web-Rebecca-Jäger-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9589355192878833,
+          "_classScore": 0.9589355192878833,
+          "_className": "",
+          "_box": {
+            "_x": 216.6655527879872,
+            "_y": 206.51699999843896,
+            "_width": 266.8034472258863,
+            "_height": 272.7175212728411
+          }
+        }
+      },
+      "role": "UX designer",
+      "quote": "&#8220;You miss 100 percent of the shots that you don´t take.&#8221;<br>\n<em>Wayne Gretzky (Hockey player)</em>"
+    },
+    {
+      "id": "robert-holma",
+      "name": "Robert Holma",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0006_Robert-1-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9950115993039577,
+          "_classScore": 0.9950115993039577,
+          "_className": "",
+          "_box": {
+            "_x": 229.11930626765044,
+            "_y": 218.84811584824925,
+            "_width": 287.6438742500224,
+            "_height": 279.64508429197303
+          }
+        }
+      },
+      "role": "Android Developer",
+      "quote": "&#8220;We see things not as they are, but as we are.”<br>\n<em>H.M. Tomlinson.</em>"
+    },
+    {
+      "id": "sebastian-soderback",
+      "name": "Sebastian Söderback",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2018/05/Web-Sebastian-Söderback-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9779191733746417,
+          "_classScore": 0.9779191733746417,
+          "_className": "",
+          "_box": {
+            "_x": 230.38526283135332,
+            "_y": 206.75085931705354,
+            "_width": 286.1850619299033,
+            "_height": 273.37899164933754
+          }
+        }
+      },
+      "role": "Interaction Designer",
+      "quote": "&#8220;There&#8217;s no I in collaboraton.&#8221;<br>\n<em>Ken M</em>"
+    },
+    {
+      "id": "sneha-krishnamurthy",
+      "name": "Sneha Krishnamurthy",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/09/MW_0001-8.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 665, "_height": 730 },
+          "_score": 0.9555771815153107,
+          "_classScore": 0.9555771815153107,
+          "_className": "",
+          "_box": {
+            "_x": 165.53653808913822,
+            "_y": 158.6999600566495,
+            "_width": 280.9169291959765,
+            "_height": 249.5217689059445
+          }
+        }
+      },
+      "role": "Android Developer"
+    },
+    {
+      "id": "sofia-hoff",
+      "name": "Sofia Hoff",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0003_Sofia_Hoff-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.6540224534161206,
+          "_classScore": 0.6540224534161206,
+          "_className": "",
+          "_box": {
+            "_x": 304.8815258038129,
+            "_y": 207.06937944094014,
+            "_width": 289.02933932812266,
+            "_height": 273.990406266223
+          }
+        }
+      },
+      "role": "UX Designer & Design Team Lead",
+      "quote": "&#8220;First we eat, then we do everything else.<br>\nM.F.K. Fisher"
+    },
+    {
+      "id": "syed-waqas-haider",
+      "name": "Syed Waqas Haider",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/09/Web_0001_Syed_Waqas_Haider_fullsize-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.6984009581489139,
+          "_classScore": 0.6984009581489139,
+          "_className": "",
+          "_box": {
+            "_x": 127.00181738598287,
+            "_y": 222.45296680763414,
+            "_width": 456.319475271742,
+            "_height": 373.75642122051056
+          }
+        }
+      },
+      "role": "iOS Developer"
+    },
+    {
+      "id": "tom-fledderus",
+      "name": "Tom Fledderus",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/12/Tom-Fledderus-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9925107011958297,
+          "_classScore": 0.9925107011958297,
+          "_className": "",
+          "_box": {
+            "_x": 225.6984089837289,
+            "_y": 203.55775711729387,
+            "_width": 295.5621071499605,
+            "_height": 282.5971679979638
+          }
+        }
+      },
+      "role": "Interaction Designer",
+      "quote": "&#8220;Tell me and I forget. Teach me and I remember. Involve me and I learn.&#8221;<br>\n<em>Benjamin Franklin</em>"
+    },
+    {
+      "id": "wesley-pires",
+      "name": "Wesley Pires",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2017/12/0005_Wesley_Pires-768x768.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9997679592036689,
+          "_classScore": 0.9997679592036689,
+          "_className": "",
+          "_box": {
+            "_x": 252.53963915019912,
+            "_y": 212.20752133710727,
+            "_width": 285.58356815534,
+            "_height": 279.39063586481717
+          }
+        }
+      },
+      "role": "UX designer",
+      "quote": "&#8220;I like constructive criticism from smart people.&#8221;<br>\n<em>Prince<br>\n</em>"
+    },
+    {
+      "id": "ylva-steffner",
+      "name": "Ylva Steffner",
+      "image": {
+        "url": "https://daresay.co/wp-content/uploads/2020/11/Ylva-web-1.jpg",
+        "faceData": {
+          "_imageDims": { "_width": 768, "_height": 768 },
+          "_score": 0.9583098508756599,
+          "_classScore": 0.9583098508756599,
+          "_className": "",
+          "_box": {
+            "_x": 243.8792381745969,
+            "_y": 143.1167731145231,
+            "_width": 253.91833424385348,
+            "_height": 239.72567112537342
+          }
+        }
+      },
+      "role": "Android Developer"
+    }
+  ]
+}

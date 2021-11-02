@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { QuestionsService } from './questions.service';
-import { Person } from './types';
 
 @Component({
   selector: 'app-root',
@@ -10,11 +7,8 @@ import { Person } from './types';
 })
 export class AppComponent implements OnInit {
   title = 'angular-quiz';
-  persons: Observable<Person[] | undefined> | undefined;
 
-  constructor(private questionsService: QuestionsService) {}
+  constructor() {}
 
-  ngOnInit(): void {
-    this.persons = this.questionsService.getPersons();
-  }
+  ngOnInit(): void {}
 }

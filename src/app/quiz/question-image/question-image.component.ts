@@ -6,7 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
     <h2>Who is this?</h2>
     <ui-spacer [size]="20"></ui-spacer>
     <div class="personContainer">
-      <div class="person" style="{{ image }}"></div>
+      <div
+        class="person"
+        [ngStyle]="{ 'background-image': 'url(' + image.url + ')' }"
+      ></div>
       <div class="cover"></div>
     </div>
   `,
@@ -40,7 +43,10 @@ import { Component, Input, OnInit } from '@angular/core';
   ],
 })
 export class QuestionImageComponent implements OnInit {
-  @Input() image!: string;
+  @Input() image!: {
+    url: string;
+    faceData?: any;
+  };
 
   constructor() {}
 

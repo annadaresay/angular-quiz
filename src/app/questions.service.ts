@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Person, Question, Quiz } from './types';
 
-const PERSONS_ENDPOINT = 'api/persons';
+const PERSONS_ENDPOINT = '/assets/data.json';
 
 const shuffle = <T extends {}>(array: T[]): T[] =>
   array.sort(() => 0.5 - Math.random());
@@ -12,7 +12,7 @@ const shuffle = <T extends {}>(array: T[]): T[] =>
   providedIn: 'root',
 })
 export class QuestionsService {
-  persons: Person[] | undefined;
+  persons: Person[] = [];
   quiz: Quiz | undefined;
 
   constructor(private http: HttpClient) {
@@ -27,6 +27,7 @@ export class QuestionsService {
       .get<{ persons: Person[] }>(PERSONS_ENDPOINT)
       .toPromise()
       .then(({ persons }) => {
+        // TODO: This seem to not trigger updates as expected
         this.setStoredPersons(persons);
         this.persons = persons;
       });
@@ -60,7 +61,7 @@ export class QuestionsService {
     localStorage.setItem(PERSONS_ENDPOINT, value);
   }
 
-  getPersons(): Observable<Person[] | undefined> {
+  getPersons(): Observable<Person[]> {
     return of(this.persons);
   }
 
