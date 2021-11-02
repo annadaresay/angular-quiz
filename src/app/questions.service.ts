@@ -4,6 +4,8 @@ import { Observable, of } from 'rxjs';
 import { Person, Question, Quiz } from './types';
 
 const PERSONS_ENDPOINT = '/assets/data.json';
+const NUMBER_OF_QUOTE_QUESTIONS = 5;
+const NUMBER_OF_IMAGE_QUESTIONS = 5;
 
 const shuffle = <T extends {}>(array: T[]): T[] =>
   array.sort(() => 0.5 - Math.random());
@@ -68,11 +70,11 @@ export class QuestionsService {
   generateQuiz() {
     // Generate quote questions
     const { questions: quoteQuestions, answers: quoteAnswers } =
-      this.generateQuoteQuestions(5);
+      this.generateQuoteQuestions(NUMBER_OF_QUOTE_QUESTIONS);
 
     // Generate image questions
     const { questions: imageQuestions, answers: imageAnswers } =
-      this.generateImageQuestions(5);
+      this.generateImageQuestions(NUMBER_OF_IMAGE_QUESTIONS);
 
     this.quiz = {
       questions: shuffle([...quoteQuestions, ...imageQuestions]),
@@ -132,13 +134,16 @@ export class QuestionsService {
 
     const persons = shuffle(this.persons);
 
-    const answers: { [key: string]: string } = persons.slice(0, amount).reduce(
-      (prev, curr, index) => ({
-        ...prev,
-        [`image-question-${index}`]: curr.id,
-      }),
-      {}
-    );
+    const answers: { [key: string]: string } = persons
+      .filter((p) => !!p.image.faceData)
+      .slice(0, amount)
+      .reduce(
+        (prev, curr, index) => ({
+          ...prev,
+          [`image-question-${index}`]: curr.id,
+        }),
+        {}
+      );
 
     const questions: Question[] = Object.entries(answers).map(
       ([questionId, answer]) => {
