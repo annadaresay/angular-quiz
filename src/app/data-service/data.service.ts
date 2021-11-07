@@ -10,8 +10,8 @@ import {
 import { getStoredPersons, setStoredPersons } from './storage';
 
 const PERSONS_ENDPOINT = '/assets/data.json';
-const NUMBER_OF_QUOTE_QUESTIONS = 1;
-const NUMBER_OF_IMAGE_QUESTIONS = 1;
+const NUMBER_OF_QUOTE_QUESTIONS = 5;
+const NUMBER_OF_IMAGE_QUESTIONS = 5;
 
 @Injectable({
   providedIn: 'root',

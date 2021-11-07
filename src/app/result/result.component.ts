@@ -128,7 +128,7 @@ export class ResultComponent implements OnInit {
 
   playAgainClick(): void {
     this.dataService.generateQuiz();
-    this.router.navigate(['/quiz']);
+    this.router.navigate(['/home']);
   }
 
   ngOnDestroy(): void {
