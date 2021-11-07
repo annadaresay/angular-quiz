@@ -19,12 +19,16 @@ import { Question } from '../../types';
     <ui-radio-group
       name="{{ question.id }}"
       [items]="radioItems"
+      [selected]="answer"
+      [onChange]="onAnswerChange"
     ></ui-radio-group>
   `,
   styles: [``],
 })
 export class QuestionComponent implements OnInit {
   @Input() question!: Question;
+  @Input() answer!: string;
+  @Input() onAnswerChange!: (id: string) => void;
 
   radioItems: { id: string; label: string }[] = [];
 

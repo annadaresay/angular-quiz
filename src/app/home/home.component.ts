@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
+import { Subscription } from 'rxjs';
+import { DataService } from '../data-service/data.service';
 import { Person } from '../types';
 
 @Component({
@@ -47,20 +48,25 @@ import { Person } from '../types';
   ],
 })
 export class HomeComponent implements OnInit {
+  personsSubscription?: Subscription;
   randomPersons: Person[] = [];
 
-  constructor(private DataService: DataService) {}
+  constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.DataService.getPersons().subscribe((data) => {
-      if (data) {
-        this.setRandomPersons(data);
+    this.personsSubscription = this.dataService.personsSubject.subscribe(
+      (persons) => {
+        this.setRandomPersons(persons);
       }
-    });
+    );
   }
 
-  private setRandomPersons(from: Person[]) {
+  setRandomPersons(from: Person[]) {
     const shuffled = from.sort(() => 0.5 - Math.random());
     this.randomPersons = shuffled.slice(0, 5);
+  }
+
+  ngOnDestroy(): void {
+    this.personsSubscription?.unsubscribe();
   }
 }

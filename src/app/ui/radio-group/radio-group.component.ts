@@ -10,6 +10,8 @@ import { Component, Input, OnInit } from '@angular/core';
           id="{{ item.id }}"
           name="{{ name }}"
           value="{{ item.id }}"
+          [(ngModel)]="selected"
+          (change)="onChange(item.id)"
         />
         <ui-spacer [size]="10"></ui-spacer>
         <label for="{{ item.id }}">{{ item.label }}</label>
@@ -37,6 +39,11 @@ import { Component, Input, OnInit } from '@angular/core';
         line-height: 28px;
         margin: 0;
       }
+
+      input:hover,
+      label:hover {
+        cursor: pointer;
+      }
     `,
   ],
 })
@@ -45,8 +52,9 @@ export class RadioGroupComponent implements OnInit {
   @Input() items!: {
     id: string;
     label: string;
-    checked?: boolean;
   }[];
+  @Input() selected?: string;
+  @Input() onChange!: (id: string) => void;
 
   constructor() {}
 
