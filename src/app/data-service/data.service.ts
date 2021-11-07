@@ -10,8 +10,8 @@ import {
 import { getStoredPersons, setStoredPersons } from './storage';
 
 const PERSONS_ENDPOINT = '/assets/data.json';
-const NUMBER_OF_QUOTE_QUESTIONS = 5;
-const NUMBER_OF_IMAGE_QUESTIONS = 5;
+const NUMBER_OF_QUOTE_QUESTIONS = 1;
+const NUMBER_OF_IMAGE_QUESTIONS = 1;
 
 @Injectable({
   providedIn: 'root',
@@ -21,14 +21,16 @@ export class DataService {
   personsSubject: BehaviorSubject<Person[]> = new BehaviorSubject<Person[]>([]);
 
   private quiz?: Quiz;
-  quizSubject: Subject<Quiz> = new Subject();
+  quizSubject: BehaviorSubject<Quiz | undefined> = new BehaviorSubject<
+    Quiz | undefined
+  >(undefined);
 
   constructor(private http: HttpClient) {
     const storedPersons = getStoredPersons();
 
     if (storedPersons) {
-      this.persons = storedPersons;
-      this.personsSubject.next(storedPersons);
+      this.updatePersons(storedPersons);
+      this.generateQuiz();
       return;
     }
 
@@ -36,9 +38,14 @@ export class DataService {
       .get<{ persons: Person[] }>(PERSONS_ENDPOINT)
       .subscribe(({ persons }) => {
         setStoredPersons(persons);
-        this.persons = persons;
-        this.personsSubject.next(persons);
+        this.updatePersons(persons);
+        this.generateQuiz();
       });
+  }
+
+  private updatePersons(persons: Person[]) {
+    this.persons = persons;
+    this.personsSubject.next(persons);
   }
 
   private updateQuiz(quiz: Quiz) {

@@ -10,6 +10,7 @@ import { QuestionImageComponent } from './quiz/question-image/question-image.com
 import { QuestionQuoteComponent } from './quiz/question-quote/question-quote.component';
 import { QuestionComponent } from './quiz/question/question.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { ResultComponent } from './result/result.component';
 import { ButtonComponent } from './ui/button/button.component';
 import { RadioGroupComponent } from './ui/radio-group/radio-group.component';
 import { SpacerComponent } from './ui/spacer/spacer.component';
@@ -17,6 +18,7 @@ import { SpacerComponent } from './ui/spacer/spacer.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'quiz', component: QuizComponent },
+  { path: 'result', component: ResultComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
@@ -31,6 +33,7 @@ const routes: Routes = [
     QuestionComponent,
     QuestionQuoteComponent,
     QuestionImageComponent,
+    ResultComponent,
   ],
   imports: [
     BrowserModule,

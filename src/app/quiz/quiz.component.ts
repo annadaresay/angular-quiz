@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { DataService } from '../data-service/data.service';
 import { Question, Quiz } from '../types';
@@ -59,7 +60,7 @@ export class QuizComponent implements OnInit {
   currentQuestionIndex: number = 0;
   currentQuestion?: Question;
 
-  constructor(private dataService: DataService) {}
+  constructor(private dataService: DataService, private router: Router) {}
 
   ngOnInit(): void {
     this.quizSubscription = this.dataService.quizSubject.subscribe((quiz) => {
@@ -69,8 +70,6 @@ export class QuizComponent implements OnInit {
         this.setCurrentQuestion(0);
       }
     });
-
-    this.dataService.generateQuiz();
   }
 
   onAnswerChange = (answer: string) => {
@@ -101,7 +100,7 @@ export class QuizComponent implements OnInit {
     }
 
     if (this.currentQuestionIndex + 1 >= this.quiz.questions.length) {
-      // TODO
+      this.router.navigate(['/result']);
     } else {
       this.setCurrentQuestion(this.currentQuestionIndex + 1);
     }
