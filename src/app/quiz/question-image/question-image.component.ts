@@ -34,6 +34,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
       .person {
         width: 100%;
+        align-self: flex-start;
         background-color: var(--page-bg-color);
       }
 
