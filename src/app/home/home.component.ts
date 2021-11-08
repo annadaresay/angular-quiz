@@ -44,6 +44,12 @@ import { Person } from '../types';
         background-size: cover;
         background-position: center;
       }
+
+      @media screen and (max-width: 960px) {
+        .personsContainer {
+          display: none;
+        }
+      }
     `,
   ],
 })

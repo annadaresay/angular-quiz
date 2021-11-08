@@ -58,21 +58,32 @@ const medals: { [key in Grade]: string } = {
         max-width: 640px;
         margin: 0 auto;
       }
+
       .content {
         display: flex;
         align-items: center;
         justify-content: flex-start;
       }
+
       .medal {
         font-size: 160px;
         line-height: 100%;
         text-align: center;
       }
+
       .footer {
         flex: 1;
         display: flex;
         align-items: flex-end;
         justify-content: center;
+      }
+
+      @media screen and (max-width: 960px) {
+        .content {
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+        }
       }
     `,
   ],

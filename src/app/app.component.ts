@@ -17,6 +17,13 @@ import { Component, OnInit } from '@angular/core';
         padding: 64px;
         margin: 0 auto;
       }
+
+      @media screen and (max-width: 960px) {
+        .container {
+          width: 100%;
+          padding: 32px;
+        }
+      }
     `,
   ],
 })
