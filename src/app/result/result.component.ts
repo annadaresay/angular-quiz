@@ -13,7 +13,7 @@ enum Grade {
 const messages: { [key in Grade]: string } = {
   [Grade.Gold]: "Wow! You're a genius!?",
   [Grade.Silver]:
-    'Nothing wrong with being average! But if you want to see gold you need to step up...',
+    "It's OK being average, but if you're looking for gold you need to step up...",
   [Grade.Bronse]: "The lights are on, but nobody's home...",
 };
 
