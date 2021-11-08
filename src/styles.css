@@ -24,6 +24,11 @@ html {
   --button-disabled-color: var(--white);
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: var(--page-bg-color);
   color: var(--text-color);
